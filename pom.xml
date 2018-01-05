@@ -12,7 +12,7 @@
   <name>simter-dependencies</name>
   <description>Simter Dependencies</description>
   <properties>
-    <revision>0.4.0-SNAPSHOT</revision>
+    <revision>0.4.0</revision>
     <!-- specify some component version -->
     <spring-boot.version>1.5.9.RELEASE</spring-boot.version>
     <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
