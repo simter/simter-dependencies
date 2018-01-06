@@ -12,7 +12,6 @@
   <name>simter-dependencies</name>
   <description>Simter Dependencies</description>
   <properties>
-    <revision>0.4.0-SNAPSHOT</revision>
     <!-- specify some component version -->
     <spring-boot.version>1.5.9.RELEASE</spring-boot.version>
     <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
@@ -410,7 +409,7 @@
               <pomElements>
                 <parent>remove</parent>
                 <properties>resolve</properties>
-                <dependencyManagement>interpolate</dependencyManagement>
+                <dependencyManagement>resolve</dependencyManagement>
                 <pluginManagement>interpolate</pluginManagement>
               </pomElements>
             </configuration>
