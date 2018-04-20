@@ -434,8 +434,8 @@
               <pomElements>
                 <parent>resolve</parent>
                 <properties>interpolate</properties>
-                <dependencyManagement>interpolate</dependencyManagement>
-                <pluginManagement>interpolate</pluginManagement>
+                <dependencyManagement>keep</dependencyManagement>
+                <pluginManagement>keep</pluginManagement>
               </pomElements>
             </configuration>
           </execution>
