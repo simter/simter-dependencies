@@ -11,19 +11,6 @@
   <packaging>pom</packaging>
   <name>simter-dependencies</name>
   <description>Simter Dependencies</description>
-  <properties>
-    <!-- specify some component version -->
-    <spring-boot.version>2.0.1.RELEASE</spring-boot.version>
-    <spring.version>5.0.5.RELEASE</spring.version>
-    <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
-    <mockito.version>2.18.0</mockito.version>
-    <mockito-kotlin.version>1.5.0</mockito-kotlin.version>
-    <hibernate.version>5.2.16.Final</hibernate.version>
-    <hibernate-validator.version>6.0.9.Final</hibernate-validator.version>
-    <mysql.version>6.0.6</mysql.version>
-    <postgresql.version>42.2.1</postgresql.version>
-    <poi.version>3.17</poi.version>
-  </properties>
   <url>https://github.com/simter/simter-dependencies</url>
   <licenses>
     <license>
@@ -74,107 +61,107 @@
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-parent</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-test</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-core</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-util</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-template</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-context</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-genson-ext</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-jpa-ext</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-jxls-ext</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-json</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-http</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-jwt</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-security</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-scheduling</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-meta</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-meta-jpa</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-rest-jaxrs</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-rest-jaxrs-jersey</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-id-data</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-id-data-jdbc</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-id-data-jpa</artifactId>
-        <version>${revision}</version>
+        <version>${simter.version}</version>
       </dependency>
       <!-- json: JSR-353 API -->
       <dependency>
@@ -441,12 +428,13 @@
             </goals>
             <configuration>
               <outputDirectory>${project.build.directory}</outputDirectory>
+              <flattenedPomFilename>flattened-pom.xml</flattenedPomFilename>
               <updatePomFile>true</updatePomFile>
               <flattenMode>bom</flattenMode>
               <pomElements>
-                <parent>remove</parent>
-                <properties>resolve</properties>
-                <dependencyManagement>resolve</dependencyManagement>
+                <parent>resolve</parent>
+                <properties>interpolate</properties>
+                <dependencyManagement>interpolate</dependencyManagement>
                 <pluginManagement>interpolate</pluginManagement>
               </pomElements>
             </configuration>
