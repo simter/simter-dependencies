@@ -183,6 +183,11 @@
         <artifactId>simter-reactive-context</artifactId>
         <version>${simter.version}</version>
       </dependency>
+      <dependency>
+        <groupId>tech.simter.reactive</groupId>
+        <artifactId>simter-reactive-web</artifactId>
+        <version>${simter.version}</version>
+      </dependency>
       <!-- json: JSR-353 API -->
       <dependency>
         <groupId>javax.json</groupId>
