@@ -173,6 +173,11 @@
         <artifactId>simter-id-data-jpa</artifactId>
         <version>${simter.version}</version>
       </dependency>
+      <dependency>
+        <groupId>tech.simter</groupId>
+        <artifactId>simter-exception</artifactId>
+        <version>${simter.version}</version>
+      </dependency>
       <!-- json: JSR-353 API -->
       <dependency>
         <groupId>javax.json</groupId>
