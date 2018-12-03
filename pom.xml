@@ -220,31 +220,11 @@
         <artifactId>javax.annotation-api</artifactId>
         <version>1.3.2</version>
       </dependency>
-      <!-- 1.0.2(2007-07-23), 2.0(2009-12-10) -->
+      <!-- 2.2(2017-08-21) -->
       <dependency>
         <groupId>javax.persistence</groupId>
         <artifactId>javax.persistence-api</artifactId>
         <version>2.2</version>
-      </dependency>
-      <dependency>
-        <groupId>javax.persistence</groupId>
-        <artifactId>persistence-api</artifactId>
-        <version>2.0</version>
-      </dependency>
-      <dependency>
-        <groupId>org.hibernate.javax.persistence</groupId>
-        <artifactId>hibernate-jpa-2.2-api</artifactId>
-        <version>1.0.0.Beta2</version>
-      </dependency>
-      <dependency>
-        <groupId>org.hibernate.javax.persistence</groupId>
-        <artifactId>hibernate-jpa-2.1-api</artifactId>
-        <version>1.0.2.Final</version>
-      </dependency>
-      <dependency>
-        <groupId>org.hibernate.javax.persistence</groupId>
-        <artifactId>hibernate-jpa-2.0-api</artifactId>
-        <version>1.0.1.Final</version>
       </dependency>
       <!-- 7.0(2015-03-21 with JPA2.1) -->
       <dependency>
