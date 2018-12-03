@@ -271,7 +271,7 @@
       <dependency>
         <groupId>javax.enterprise</groupId>
         <artifactId>cdi-api</artifactId>
-        <version>2.0</version>
+        <version>2.0.SP1</version>
       </dependency>
       <!-- JAX-RS/API: 2.0 2013-05-24、1.1 2008-10-10 -->
       <dependency>
