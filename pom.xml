@@ -566,6 +566,33 @@
         <artifactId>jsoup</artifactId>
         <version>1.11.3</version>
       </dependency>
+
+      <!-- r2dbc -->
+      <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-data-r2dbc</artifactId>
+        <version>${spring-data-r2dbc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.r2dbc</groupId>
+        <artifactId>r2dbc-spi</artifactId>
+        <version>${r2dbc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.r2dbc</groupId>
+        <artifactId>r2dbc-postgresql</artifactId>
+        <version>${r2dbc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.r2dbc</groupId>
+        <artifactId>r2dbc-h2</artifactId>
+        <version>${r2dbc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>io.r2dbc</groupId>
+        <artifactId>r2dbc-mssql</artifactId>
+        <version>${r2dbc.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
   <build>
