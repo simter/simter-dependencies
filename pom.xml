@@ -206,16 +206,6 @@
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
-        <artifactId>simter-meta</artifactId>
-        <version>${simter.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>tech.simter</groupId>
-        <artifactId>simter-meta-jpa</artifactId>
-        <version>${simter.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>tech.simter</groupId>
         <artifactId>simter-rest-jaxrs</artifactId>
         <version>${simter.version}</version>
       </dependency>
