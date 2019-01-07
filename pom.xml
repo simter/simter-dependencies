@@ -226,21 +226,6 @@
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
-        <artifactId>simter-id-data</artifactId>
-        <version>${simter.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>tech.simter</groupId>
-        <artifactId>simter-id-data-jdbc</artifactId>
-        <version>${simter.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>tech.simter</groupId>
-        <artifactId>simter-id-data-jpa</artifactId>
-        <version>${simter.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>tech.simter</groupId>
         <artifactId>simter-exception</artifactId>
         <version>${simter.version}</version>
       </dependency>
