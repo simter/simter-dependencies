@@ -4,10 +4,11 @@
   <parent>
     <groupId>tech.simter</groupId>
     <artifactId>simter-build</artifactId>
-    <version>${revision}</version>
-    <relativePath>..</relativePath>
+    <version>1.0.1</version>
+    <relativePath/>
   </parent>
   <artifactId>simter-dependencies</artifactId>
+  <version>1.0.1</version>
   <packaging>pom</packaging>
   <name>simter-dependencies</name>
   <description>Simter Dependencies</description>
@@ -242,7 +243,7 @@
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-r2dbc-ext</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-r2dbc-ext.version}</version>
       </dependency>
       <!-- json: JSR-353 API -->
       <dependency>
