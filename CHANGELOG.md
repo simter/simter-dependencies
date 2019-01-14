@@ -1,5 +1,10 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.1.0 - 2019-01-14
+
+- Upgrade maven parent to simter-build-1.1.0
+- Upgrade to simter-r2dbc-ext-1.1.1
+
 ## 1.0.1 - 2019-01-10
 
 - Upgrade to simter-r2dbc-ext-1.1.0 (from kotlin module to java module)
