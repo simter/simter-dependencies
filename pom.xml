@@ -242,7 +242,7 @@
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-r2dbc-ext</artifactId>
-        <version>${simter.version}</version>
+        <version>1.1-SNAPSHOT</version>
       </dependency>
       <!-- json: JSR-353 API -->
       <dependency>
