@@ -244,6 +244,11 @@
         <artifactId>simter-r2dbc-ext</artifactId>
         <version>1.1-SNAPSHOT</version>
       </dependency>
+      <dependency>
+        <groupId>tech.simter</groupId>
+        <artifactId>simter-kotlin</artifactId>
+        <version>1.0-SNAPSHOT</version>
+      </dependency>
       <!-- json: JSR-353 API -->
       <dependency>
         <groupId>javax.json</groupId>
