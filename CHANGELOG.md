@@ -1,5 +1,9 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.1.2 - 2019-01-16 16:30
+
+- Upgrade to simter-kotlin-1.1.0
+
 ## 1.1.1 - 2019-01-16 14:13
 
 - Add simter-kotlin-1.0.0
