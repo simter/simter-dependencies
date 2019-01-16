@@ -1,5 +1,9 @@
 # [simter-build](https://github.com/simter/simter-build) changelog
 
+## 1.1.1 - 2019-01-16 14:13
+
+- Add simter-kotlin-1.0.0
+
 ## 1.1.0 - 2019-01-14
 
 - Upgrade maven parent to simter-build-1.1.0
