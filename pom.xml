@@ -65,6 +65,44 @@
   </properties>
   <dependencyManagement>
     <dependencies>
+      <!-- bom order  -->
+      <dependency>
+        <groupId>org.junit</groupId>
+        <artifactId>junit-bom</artifactId>
+        <version>${junit5.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-bom</artifactId>
+        <version>${kotlin.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>io.r2dbc</groupId>
+        <artifactId>r2dbc-bom</artifactId>
+        <version>${r2dbc.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <!-- kotlin  -->
+      <dependency>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-maven-plugin</artifactId>
+        <version>${kotlin.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-maven-noarg</artifactId>
+        <version>${kotlin.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlin</groupId>
+        <artifactId>kotlin-maven-allopen</artifactId>
+        <version>${kotlin.version}</version>
+      </dependency>
       <!-- spring-boot -->
       <dependency>
         <groupId>org.springframework.boot</groupId>
@@ -74,11 +112,6 @@
         <scope>import</scope>
       </dependency>
       <!-- test -->
-      <dependency>
-        <groupId>org.junit</groupId>
-        <artifactId>junit-bom</artifactId>
-        <version>${junit5.version}</version>
-      </dependency>
       <dependency>
         <groupId>org.apiguardian</groupId>
         <artifactId>apiguardian-api</artifactId>
@@ -480,40 +513,12 @@
         <version>1.4.199</version>
       </dependency>
 
-      <!-- kotlin  -->
-      <dependency>
-        <groupId>org.jetbrains.kotlin</groupId>
-        <artifactId>kotlin-bom</artifactId>
-        <version>${kotlin.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jetbrains.kotlin</groupId>
-        <artifactId>kotlin-maven-plugin</artifactId>
-        <version>${kotlin.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jetbrains.kotlin</groupId>
-        <artifactId>kotlin-maven-noarg</artifactId>
-        <version>${kotlin.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.jetbrains.kotlin</groupId>
-        <artifactId>kotlin-maven-allopen</artifactId>
-        <version>${kotlin.version}</version>
-      </dependency>
-
       <dependency>
         <groupId>org.jsoup</groupId>
         <artifactId>jsoup</artifactId>
         <version>1.11.3</version>
       </dependency>
 
-      <!-- r2dbc -->
-      <dependency>
-        <groupId>io.r2dbc</groupId>
-        <artifactId>r2dbc-bom</artifactId>
-        <version>${r2dbc.version}</version>
-      </dependency>
       <!-- spring-r2dbc -->
       <dependency>
         <groupId>org.springframework.data</groupId>
