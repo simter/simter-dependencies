@@ -36,6 +36,33 @@
     <system>GitHub</system>
     <url>https://github.com/simter/simter-dependencies/issues</url>
   </issueManagement>
+  <properties>
+    <simter-parent.version>${simter.version}</simter-parent.version>
+    <simter-test.version>${simter.version}</simter-test.version>
+    <simter-core.version>${simter.version}</simter-core.version>
+    <simter-util.version>${simter.version}</simter-util.version>
+    <simter-template.version>${simter.version}</simter-template.version>
+    <simter-context.version>${simter.version}</simter-context.version>
+    <simter-genson-ext.version>${simter.version}</simter-genson-ext.version>
+    <simter-jpa-ext.version>${simter.version}</simter-jpa-ext.version>
+    <simter-jxls-ext.version>${simter.version}</simter-jxls-ext.version>
+    <simter-mongo-ext.version>${simter.version}</simter-mongo-ext.version>
+    <simter-jackson-ext.version>${simter.version}</simter-jackson-ext.version>
+    <simter-json.version>${simter.version}</simter-json.version>
+    <simter-http.version>${simter.version}</simter-http.version>
+    <simter-jwt.version>${simter.version}</simter-jwt.version>
+    <simter-security.version>${simter.version}</simter-security.version>
+    <simter-scheduling.version>${simter.version}</simter-scheduling.version>
+    <simter-rest-jaxrs.version>${simter.version}</simter-rest-jaxrs.version>
+    <simter-rest-jaxrs-jersey.version>${simter.version}</simter-rest-jaxrs-jersey.version>
+    <simter-exception.version>${simter.version}</simter-exception.version>
+    <simter-reactive-context.version>${simter.version}</simter-reactive-context.version>
+    <simter-reactive-web.version>${simter.version}</simter-reactive-web.version>
+    <simter-reactive-security.version>${simter.version}</simter-reactive-security.version>
+    <simter-query.version>${simter.version}</simter-query.version>
+    <simter-r2dbc-ext.version>${simter.version}</simter-r2dbc-ext.version>
+    <simter-kotlin.version>${simter.version}</simter-kotlin.version>
+  </properties>
   <dependencyManagement>
     <dependencies>
       <!-- spring-boot -->
@@ -96,127 +123,127 @@
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-parent</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-parent.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-test</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-test.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-core</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-core.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-util</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-util.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-template</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-template.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-context</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-context.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-genson-ext</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-genson-ext.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-jpa-ext</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-jpa-ext.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-jxls-ext</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-jxls-ext.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-mongo-ext</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-mongo-ext.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-jackson-ext</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-jackson-ext.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-json</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-json.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-http</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-http.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-jwt</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-jwt.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-security</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-security.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-scheduling</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-scheduling.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-rest-jaxrs</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-rest-jaxrs.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-rest-jaxrs-jersey</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-rest-jaxrs-jersey.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-exception</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-exception.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter.reactive</groupId>
         <artifactId>simter-reactive-context</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-reactive-context.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter.reactive</groupId>
         <artifactId>simter-reactive-web</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-reactive-web.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter.reactive</groupId>
         <artifactId>simter-reactive-security</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-reactive-security.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-query</artifactId>
-        <version>${simter.version}</version>
+        <version>${simter-query.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-r2dbc-ext</artifactId>
-        <version>1.1-SNAPSHOT</version>
+        <version>${simter-r2dbc-ext.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
         <artifactId>simter-kotlin</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>${simter-kotlin.version}</version>
       </dependency>
       <!-- json: JSR-353 API -->
       <dependency>
