@@ -62,6 +62,7 @@
     <simter-query.version>${simter.version}</simter-query.version>
     <simter-r2dbc-ext.version>${simter.version}</simter-r2dbc-ext.version>
     <simter-kotlin.version>${simter.version}</simter-kotlin.version>
+    <simter-embedded-database-ext.version>${simter.version}</simter-embedded-database-ext.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -281,6 +282,11 @@
         <groupId>tech.simter</groupId>
         <artifactId>simter-kotlin</artifactId>
         <version>${simter-kotlin.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>tech.simter</groupId>
+        <artifactId>simter-embedded-database-ext</artifactId>
+        <version>${simter-embedded-database-ext.version}</version>
       </dependency>
       <!-- json: JSR-353 API -->
       <dependency>
