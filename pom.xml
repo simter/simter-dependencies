@@ -617,6 +617,12 @@
         <artifactId>spring-data-relational</artifactId>
         <version>${spring-data-jdbc.version}</version>
       </dependency>
+      <!-- datasource -->
+      <dependency>
+        <groupId>com.zaxxer</groupId>
+        <artifactId>HikariCP</artifactId>
+        <version>3.3.1</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
   <build>
