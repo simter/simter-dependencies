@@ -409,6 +409,12 @@
         <groupId>org.eclipse.persistence</groupId>
         <artifactId>org.eclipse.persistence.jpa</artifactId>
         <version>${eclipselink.version}</version>
+        <exclusions>
+          <exclusion>
+            <groupId>org.eclipse.persistence</groupId>
+            <artifactId>jakarta.persistence</artifactId>
+          </exclusion>
+        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.eclipse.persistence</groupId>
