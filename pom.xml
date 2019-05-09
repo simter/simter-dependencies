@@ -48,6 +48,7 @@
     <simter-jxls-ext.version>${simter.version}</simter-jxls-ext.version>
     <simter-mongo-ext.version>${simter.version}</simter-mongo-ext.version>
     <simter-jackson-ext.version>${simter.version}</simter-jackson-ext.version>
+    <simter-jackson-jsonb.version>${simter.version}</simter-jackson-jsonb.version>
     <simter-json.version>${simter.version}</simter-json.version>
     <simter-http.version>${simter.version}</simter-http.version>
     <simter-jwt.version>${simter.version}</simter-jwt.version>
@@ -221,6 +222,11 @@
         <groupId>tech.simter</groupId>
         <artifactId>simter-jackson-ext</artifactId>
         <version>${simter-jackson-ext.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>tech.simter</groupId>
+        <artifactId>simter-jackson-jsonb</artifactId>
+        <version>${simter-jackson-jsonb.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
