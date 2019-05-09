@@ -329,6 +329,11 @@
         <artifactId>jakarta.json.bind-api</artifactId>
         <version>1.0.1</version>
       </dependency>
+      <dependency>
+        <groupId>org.eclipse</groupId>
+        <artifactId>yasson</artifactId>
+        <version>1.0.3</version>
+      </dependency>
       <!-- Java IOC -->
       <dependency>
         <groupId>javax.inject</groupId>
