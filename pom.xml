@@ -47,7 +47,7 @@
     <simter-jpa-ext.version>${simter.version}</simter-jpa-ext.version>
     <simter-jxls-ext.version>${simter.version}</simter-jxls-ext.version>
     <simter-mongo-ext.version>${simter.version}</simter-mongo-ext.version>
-    <simter-jackson-ext.version>${simter.version}</simter-jackson-ext.version>
+    <simter-jackson-javatime.version>${simter.version}</simter-jackson-javatime.version>
     <simter-jackson-jsonb.version>${simter.version}</simter-jackson-jsonb.version>
     <simter-json.version>${simter.version}</simter-json.version>
     <simter-http.version>${simter.version}</simter-http.version>
@@ -227,8 +227,8 @@
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
-        <artifactId>simter-jackson-ext</artifactId>
-        <version>${simter-jackson-ext.version}</version>
+        <artifactId>simter-jackson-javatime</artifactId>
+        <version>${simter-jackson-javatime.version}</version>
       </dependency>
       <dependency>
         <groupId>tech.simter</groupId>
