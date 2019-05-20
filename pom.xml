@@ -112,6 +112,13 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+      <dependency>
+        <groupId>org.springframework.boot.experimental</groupId>
+        <artifactId>spring-boot-dependencies-r2dbc</artifactId>
+        <version>${spring-boot-r2dbc.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
       <!-- kotlin  -->
       <dependency>
         <groupId>org.jetbrains.kotlin</groupId>
