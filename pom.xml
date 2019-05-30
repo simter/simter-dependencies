@@ -327,6 +327,11 @@
         <artifactId>simter-embedded-database-ext</artifactId>
         <version>${simter-embedded-database-ext.version}</version>
       </dependency>
+      <dependency>
+        <groupId>com.google.code.findbugs</groupId>
+        <artifactId>jsr305</artifactId>
+        <version>3.0.2</version>
+      </dependency>
       <!-- JSON-P: JSR-353 API -->
       <dependency>
         <groupId>javax.json</groupId>
