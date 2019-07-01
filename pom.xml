@@ -106,6 +106,13 @@
         <scope>import</scope>
       </dependency>
       <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-data-releasetrain</artifactId>
+        <version>${spring-data-releasetrain.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>
         <version>${spring-boot.version}</version>
@@ -710,17 +717,6 @@
             <artifactId>mssql-jdbc</artifactId>
           </exclusion>
         </exclusions>
-      </dependency>
-      <!-- spring-data-jdbc -->
-      <dependency>
-        <groupId>org.springframework.data</groupId>
-        <artifactId>spring-data-jdbc</artifactId>
-        <version>${spring-data-jdbc.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.springframework.data</groupId>
-        <artifactId>spring-data-relational</artifactId>
-        <version>${spring-data-jdbc.version}</version>
       </dependency>
       <!-- datasource -->
       <dependency>
