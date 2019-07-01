@@ -99,6 +99,11 @@
         <scope>import</scope>
       </dependency>
       <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-data-r2dbc</artifactId>
+        <version>${spring-data-r2dbc.version}</version>
+      </dependency>
+      <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-framework-bom</artifactId>
         <version>${spring.version}</version>
@@ -706,18 +711,6 @@
         <version>1.11.3</version>
       </dependency>
 
-      <!-- spring-r2dbc -->
-      <dependency>
-        <groupId>org.springframework.data</groupId>
-        <artifactId>spring-data-r2dbc</artifactId>
-        <version>${spring-data-r2dbc.version}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>com.microsoft.sqlserver</groupId>
-            <artifactId>mssql-jdbc</artifactId>
-          </exclusion>
-        </exclusions>
-      </dependency>
       <!-- datasource -->
       <dependency>
         <groupId>com.zaxxer</groupId>
