@@ -43,7 +43,7 @@
     <simter-util.version>${simter.version}</simter-util.version>
     <simter-template.version>${simter.version}</simter-template.version>
     <simter-context.version>1.1.0</simter-context.version>
-    <simter-genson-ext.version>${simter.version}</simter-genson-ext.version>
+    <simter-genson-ext.version>1.1.0</simter-genson-ext.version>
     <simter-jpa-ext.version>${simter.version}</simter-jpa-ext.version>
     <simter-jxls-ext.version>${simter.version}</simter-jxls-ext.version>
     <simter-mongo-ext.version>${simter.version}</simter-mongo-ext.version>
