@@ -746,38 +746,4 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-enforcer-plugin</artifactId>
-      </plugin>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>flatten-maven-plugin</artifactId>
-        <inherited>false</inherited>
-        <executions>
-          <execution>
-            <id>flatten</id>
-            <phase>process-resources</phase>
-            <goals>
-              <goal>flatten</goal>
-            </goals>
-            <configuration>
-              <outputDirectory>${project.build.directory}</outputDirectory>
-              <flattenedPomFilename>flattened-pom.xml</flattenedPomFilename>
-              <updatePomFile>true</updatePomFile>
-              <flattenMode>bom</flattenMode>
-              <pomElements>
-                <parent>resolve</parent>
-                <properties>interpolate</properties>
-                <dependencyManagement>keep</dependencyManagement>
-                <pluginManagement>keep</pluginManagement>
-              </pomElements>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
 </project>
