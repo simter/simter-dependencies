@@ -4,8 +4,8 @@
   <parent>
     <groupId>tech.simter</groupId>
     <artifactId>simter-build</artifactId>
-    <version>${revision}</version>
-    <relativePath>..</relativePath>
+    <version>1.2.0</version>
+    <relativePath/>
   </parent>
   <artifactId>simter-dependencies</artifactId>
   <packaging>pom</packaging>
