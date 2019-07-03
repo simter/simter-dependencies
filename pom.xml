@@ -53,7 +53,7 @@
     <simter-http.version>1.1.0</simter-http.version>
     <simter-jwt.version>1.1.0</simter-jwt.version>
     <simter-security.version>${simter.version}</simter-security.version>
-    <simter-scheduling.version>${simter.version}</simter-scheduling.version>
+    <simter-scheduling.version>1.1.0</simter-scheduling.version>
     <simter-rest-jaxrs.version>1.1.0</simter-rest-jaxrs.version>
     <simter-rest-jaxrs-jersey.version>1.1.0</simter-rest-jaxrs-jersey.version>
     <simter-exception.version>1.1.0</simter-exception.version>
