@@ -37,7 +37,7 @@
     <url>https://github.com/simter/simter-dependencies/issues</url>
   </issueManagement>
   <properties>
-    <simter-parent.version>${simter.version}</simter-parent.version>
+    <simter-parent.version>1.2.0</simter-parent.version>
     <simter-test.version>1.1.0</simter-test.version>
     <simter-core.version>1.1.0</simter-core.version>
     <simter-util.version>1.1.0</simter-util.version>
