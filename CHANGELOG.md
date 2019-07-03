@@ -1,4 +1,8 @@
-# [simter-build](https://github.com/simter/simter-build) changelog
+# simter-dependencies changelog
+
+## 1.2.0 - 2019-07-02
+
+- Upgrade to simter-build-1.2.0
 
 ## 1.1.2 - 2019-01-16 16:30
 
