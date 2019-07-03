@@ -54,7 +54,7 @@
     <simter-jwt.version>1.1.0</simter-jwt.version>
     <simter-security.version>${simter.version}</simter-security.version>
     <simter-scheduling.version>${simter.version}</simter-scheduling.version>
-    <simter-rest-jaxrs.version>${simter.version}</simter-rest-jaxrs.version>
+    <simter-rest-jaxrs.version>1.1.0</simter-rest-jaxrs.version>
     <simter-rest-jaxrs-jersey.version>${simter.version}</simter-rest-jaxrs-jersey.version>
     <simter-exception.version>1.1.0</simter-exception.version>
     <simter-reactive-context.version>${simter.version}</simter-reactive-context.version>
