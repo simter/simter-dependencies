@@ -48,7 +48,7 @@
     <simter-jxls-ext.version>${simter.version}</simter-jxls-ext.version>
     <simter-mongo-ext.version>${simter.version}</simter-mongo-ext.version>
     <simter-jackson-javatime.version>0.3.0</simter-jackson-javatime.version>
-    <simter-jackson-jsonb.version>${simter.version}</simter-jackson-jsonb.version>
+    <simter-jackson-jsonb.version>0.5.0</simter-jackson-jsonb.version>
     <simter-json.version>${simter.version}</simter-json.version>
     <simter-http.version>1.1.0</simter-http.version>
     <simter-jwt.version>${simter.version}</simter-jwt.version>
