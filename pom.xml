@@ -38,7 +38,7 @@
   </issueManagement>
   <properties>
     <simter-parent.version>${simter.version}</simter-parent.version>
-    <simter-test.version>${simter.version}</simter-test.version>
+    <simter-test.version>1.1.0</simter-test.version>
     <simter-core.version>1.1.0</simter-core.version>
     <simter-util.version>1.1.0</simter-util.version>
     <simter-template.version>${simter.version}</simter-template.version>
