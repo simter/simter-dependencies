@@ -1,5 +1,9 @@
 # simter-dependencies changelog
 
+## 1.3.0-M1 - 2019-09-27
+
+- Upgrade to simter-build-1.3.0-M1
+
 ## 1.2.1 - 2019-09-27
 
 - Upgrade to simter-rest-jaxrs-1.1.1
