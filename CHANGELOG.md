@@ -1,5 +1,13 @@
 # simter-dependencies changelog
 
+## 1.2.1 - 2019-09-27
+
+- Upgrade to simter-rest-jaxrs-1.1.1
+- Upgrade to simter-reactive-security-1.1.1
+- Upgrade to simter-reactive-web-1.1.1
+- Upgrade to simter-kotlin-1.3.1
+- Upgrade to simter-build-1.2.1
+
 ## 1.2.0 - 2019-07-02
 
 - Upgrade to simter-build-1.2.0
