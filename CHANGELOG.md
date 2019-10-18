@@ -1,5 +1,33 @@
 # simter-dependencies changelog
 
+## 1.3.0-M3 - 2019-10-18
+
+- Upgrade to simter-build-1.3.0-M3
+- Upgrade to Upgrade to simter-embedded-database-ext-1.1.0-M1
+- Upgrade to simter-reactive-web-1.1.2
+- Change groupId com.nhaarman to com.nhaarman.mockitokotlin2
+- Upgrade to commons-dbcp2-2.7.0
+- Upgrade to HikariCP-3.4.1
+- Upgrade to wix-embedded-mysql-4.6.0
+- Upgrade to quartz-2.3.1
+- Upgrade to rxjava-2.2.13
+- Upgrade to genson-1.6
+- Upgrade to lombok-1.18.10
+- Upgrade to assertj-core-3.13.2
+- Upgrade to auto-value-1.7.0
+- Upgrade to value-2.8.0
+- Upgrade to json-unit-assertj-2.10.0
+- Upgrade to commons-lang3-3.9
+- Upgrade to xmlbeans-3.1.0
+- Upgrade to okhttp-4.2.2
+- Upgrade to modelmapper-2.3.5
+- Upgrade to hamcrest-date-2.0.7
+- Upgrade to javaee-api-8.0.1
+- Upgrade to johnzon-jsonb-1.2.0
+- Upgrade to yasson-1.0.5
+- Upgrade to jakarta.json.bind-api-1.0.2
+- Upgrade to commons-compress-1.19
+
 ## 1.3.0-M2 - 2019-10-08
 
 - Upgrade to simter-build-1.3.0-M2
