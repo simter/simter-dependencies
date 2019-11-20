@@ -1,5 +1,20 @@
 # simter-dependencies changelog
 
+## 1.3.0-M6 - 2019-11-20
+
+- Upgrade to simter-build-1.3.0-M6
+- Upgrade to simter-reactive-web-1.2.0-M2
+
+## 1.3.0-M5 - 2019-11-16
+
+- Upgrade to simter-build-1.3.0-M5
+- Upgrade to simter-reactive-web-1.2.0-M1
+
+## 1.3.0-M4 - 2019-11-07
+
+- Upgrade to simter-build-1.3.0-M4
+- Upgrade to simter-reactive-test-0.2.0
+
 ## 1.3.0-M3 - 2019-10-18
 
 - Upgrade to simter-build-1.3.0-M3
