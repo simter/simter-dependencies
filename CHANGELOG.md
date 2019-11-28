@@ -1,5 +1,12 @@
 # simter-dependencies changelog
 
+## 1.3.0-M7 - 2019-11-28
+
+- Upgrade to simter-build-1.3.0-M7
+- Upgrade to simter-reactive-web-1.2.0-M3
+- Add org.jetbrains.kotlinx:kotlinx-coroutines-bom dependencyManagement
+- Add org.jetbrains.kotlinx:kotlinx-serialization-runtime dependencyManagement
+
 ## 1.3.0-M6 - 2019-11-20
 
 - Upgrade to simter-build-1.3.0-M6
