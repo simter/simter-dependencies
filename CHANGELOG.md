@@ -1,5 +1,11 @@
 # simter-dependencies changelog
 
+## 1.3.0-M8 - 2019-12-03
+
+- Upgrade to simter-build-1.3.0-M8
+- Upgrade to simter-kotlin-1.3.0-M1
+- Remove junit4 dependency from spring-boot-starter-test
+
 ## 1.3.0-M7 - 2019-11-28
 
 - Upgrade to simter-build-1.3.0-M7
