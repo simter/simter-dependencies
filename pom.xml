@@ -4,11 +4,11 @@
   <parent>
     <groupId>tech.simter</groupId>
     <artifactId>simter-build</artifactId>
-    <version>1.3.0-M7</version>
+    <version>1.3.0-M8</version>
     <relativePath/>
   </parent>
   <artifactId>simter-dependencies</artifactId>
-  <version>1.3.0-M7</version>
+  <version>1.3.0-M8</version>
   <packaging>pom</packaging>
   <name>simter-dependencies</name>
   <description>Simter Dependencies</description>
@@ -65,7 +65,7 @@
     <simter-reactive-test.version>0.2.0</simter-reactive-test.version>
     <simter-query.version>1.1.0</simter-query.version>
     <simter-r2dbc-ext.version>1.4.0-M1</simter-r2dbc-ext.version>
-    <simter-kotlin.version>1.3.1</simter-kotlin.version>
+    <simter-kotlin.version>1.4.0-M1</simter-kotlin.version>
     <simter-embedded-database-ext.version>1.1.0-M1</simter-embedded-database-ext.version>
   </properties>
   <dependencyManagement>
@@ -540,8 +540,20 @@
             <artifactId>junit</artifactId>
           </exclusion>
           <exclusion>
+            <groupId>org.junit.vintage</groupId>
+            <artifactId>junit-vintage-engine</artifactId>
+          </exclusion>
+          <exclusion>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+          </exclusion>
+          <exclusion>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest</artifactId>
           </exclusion>
         </exclusions>
       </dependency>
