@@ -1,5 +1,14 @@
 # simter-dependencies changelog
 
+## 1.3.0-M9 - 2019-12-10
+
+- Upgrade to simter-build-1.3.0-M9
+- Upgrade to simter-kotlin-1.4.0-M2
+- Upgrade to simter-r2dbc-ext-1.4.0-M2
+- Upgrade to simter-reactive-web-1.2.0-M4
+- Upgrade to Upgrade to simter-embedded-database-ext-1.1.0-M2
+- Add r2dbc-client dependencManagement - because [r2dbc-client/issue#63](https://github.com/r2dbc/r2dbc-client/issues/63)
+
 ## 1.3.0-M8 - 2019-12-03
 
 - Upgrade to simter-build-1.3.0-M8
