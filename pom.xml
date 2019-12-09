@@ -66,7 +66,7 @@
     <simter-query.version>1.1.0</simter-query.version>
     <simter-r2dbc-ext.version>1.4.0-M2</simter-r2dbc-ext.version>
     <simter-kotlin.version>1.4.0-M2</simter-kotlin.version>
-    <simter-embedded-database-ext.version>1.1.0-M1</simter-embedded-database-ext.version>
+    <simter-embedded-database-ext.version>1.1.0-M2</simter-embedded-database-ext.version>
   </properties>
   <dependencyManagement>
     <dependencies>
