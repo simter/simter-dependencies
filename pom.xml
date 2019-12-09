@@ -4,11 +4,11 @@
   <parent>
     <groupId>tech.simter</groupId>
     <artifactId>simter-build</artifactId>
-    <version>1.3.0-M8</version>
+    <version>1.3.0-M9</version>
     <relativePath/>
   </parent>
   <artifactId>simter-dependencies</artifactId>
-  <version>1.3.0-M8</version>
+  <version>1.3.0-M9</version>
   <packaging>pom</packaging>
   <name>simter-dependencies</name>
   <description>Simter Dependencies</description>
@@ -59,14 +59,14 @@
     <simter-rest-jaxrs-jersey.version>1.1.0</simter-rest-jaxrs-jersey.version>
     <simter-exception.version>1.1.0</simter-exception.version>
     <simter-reactive-context.version>1.1.0</simter-reactive-context.version>
-    <simter-reactive-web.version>1.2.0-M3</simter-reactive-web.version>
+    <simter-reactive-web.version>1.2.0-M4</simter-reactive-web.version>
     <simter-reactive-security.version>1.1.1</simter-reactive-security.version>
     <simter-reactive-jpa.version>0.1.0</simter-reactive-jpa.version>
     <simter-reactive-test.version>0.2.0</simter-reactive-test.version>
     <simter-query.version>1.1.0</simter-query.version>
-    <simter-r2dbc-ext.version>1.4.0-M1</simter-r2dbc-ext.version>
-    <simter-kotlin.version>1.4.0-M1</simter-kotlin.version>
-    <simter-embedded-database-ext.version>1.1.0-M1</simter-embedded-database-ext.version>
+    <simter-r2dbc-ext.version>1.4.0-M2</simter-r2dbc-ext.version>
+    <simter-kotlin.version>1.4.0-M2</simter-kotlin.version>
+    <simter-embedded-database-ext.version>1.1.0-M2</simter-embedded-database-ext.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -110,6 +110,11 @@
         <version>${r2dbc.version}</version>
         <type>pom</type>
         <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>io.r2dbc</groupId>
+        <artifactId>r2dbc-client</artifactId>
+        <version>${r2dbc-client.version}</version>
       </dependency>
       <dependency>
         <groupId>org.springframework</groupId>
