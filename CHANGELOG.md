@@ -1,5 +1,10 @@
 # simter-dependencies changelog
 
+## 1.3.0-M10 - 2019-12-18
+
+- Upgrade to simter-build-1.3.0-M10
+- Upgrade to jxls-2.7.2
+
 ## 1.3.0-M9 - 2019-12-10
 
 - Upgrade to simter-build-1.3.0-M9
