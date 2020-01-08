@@ -1,5 +1,11 @@
 # simter-dependencies changelog
 
+## 1.3.0-M11 - 2020-01-08
+
+- Upgrade to simter-build-1.3.0-M11
+- Upgrade to simter-jxls-ext-1.2.0-M1
+- Upgrade to simter-kotlin-1.4.0-M3
+
 ## 1.3.0-M10 - 2019-12-18
 
 - Upgrade to simter-build-1.3.0-M10
