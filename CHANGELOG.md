@@ -1,5 +1,38 @@
 # simter-dependencies changelog
 
+## 1.3.0-M13 - 2020-03-01
+
+- Rename spring.version to spring-framework.version
+- Add simter-reactive-io-0.1.0
+- Upgrade to simter-reactive-test-0.3.0
+- Upgrade to simter-reactive-jpa-0.2.0
+- Upgrade to simter-reactive-security-1.2.0-M1
+- Upgrade to simter-reactive-context-1.2.0-M1
+- Upgrade to simter-parent-1.3.0-M1
+- Upgrade to simter-util-1.2.0-M2
+- Upgrade to simter-embedded-database-ext-1.1.0-M3
+- Upgrade to simter-kotlin-1.4.0-M4
+- Upgrade to simter-r2dbc-ext-1.4.0-M4
+- Upgrade to simter-reactive-web-1.2.0-M5
+- Upgrade to simter-jxls-ext-1.2.0-M2
+- Upgrade to simter-build-1.3.0-M13
+- Upgrade to wix-embedded-mysql-4.6.1
+- Upgrade to rxjava-2.2.17
+- Upgrade to quartz-2.3.2
+- Upgrade to HikariCP-3.4.2
+- Upgrade to assertj-core-3.15.0
+- Upgrade to json-unit-assertj-2.13.0
+- Upgrade to lombok-1.18.12
+- Upgrade to value-2.8.3
+- Upgrade to auto-value-1.7
+- Upgrade to jsoup-1.12.2
+- Upgrade to commons-compress-1.20
+- Upgrade to modelmapper-2.3.6
+- Upgrade to okhttp-4.3.1
+- Upgrade to johnzon-jsonb-extras-1.2.3
+- Upgrade to johnzon-jsonb-1.2.3
+- Upgrade to yasson-1.0.6
+
 ## 1.3.0-M12 - 2020-01-19
 
 - Upgrade to simter-build-1.3.0-M12
