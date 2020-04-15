@@ -65,7 +65,7 @@
     <simter-reactive-jpa.version>0.2.0</simter-reactive-jpa.version>
     <simter-reactive-test.version>0.3.0</simter-reactive-test.version>
     <simter-query.version>1.1.0</simter-query.version>
-    <simter-r2dbc-ext.version>1.4.0-M4</simter-r2dbc-ext.version>
+    <simter-r2dbc-ext.version>1.4.0-M5</simter-r2dbc-ext.version>
     <simter-kotlin.version>1.4.0-M4</simter-kotlin.version>
     <simter-embedded-database-ext.version>1.1.0-M3</simter-embedded-database-ext.version>
   </properties>
