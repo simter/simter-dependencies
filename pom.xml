@@ -46,7 +46,7 @@
     <simter-context.version>1.1.0</simter-context.version>
     <simter-genson-ext.version>1.1.0</simter-genson-ext.version>
     <simter-jpa-ext.version>1.1.0</simter-jpa-ext.version>
-    <simter-jxls-ext.version>1.2.0-M2</simter-jxls-ext.version>
+    <simter-jxls-ext.version>1.2.0-M3</simter-jxls-ext.version>
     <simter-mongo-ext.version>1.1.0</simter-mongo-ext.version>
     <simter-jackson-javatime.version>0.3.0</simter-jackson-javatime.version>
     <simter-jackson-jsonb.version>0.5.0</simter-jackson-jsonb.version>
