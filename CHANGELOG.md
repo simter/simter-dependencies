@@ -1,5 +1,28 @@
 # simter-dependencies changelog
 
+## 1.3.0-M14 - 2020-04-17
+
+- Upgrade to simter-jpa-ext-1.2.0-M2
+- Upgrade to simter-reactive-security-1.2.0-M1
+- Upgrade to simter-reactive-context-1.2.0-M1
+- Upgrade to simter-parent-1.3.0-M1
+- Upgrade to simter-util-1.2.0-M2
+- Upgrade to simter-embedded-database-ext-1.1.0-M3
+- Upgrade to simter-kotlin-1.4.0-M4
+- Upgrade to simter-r2dbc-ext-1.4.0-M4
+- Upgrade to simter-reactive-web-1.2.0-M5
+- Upgrade to simter-jxls-ext-1.2.0-M2
+- Upgrade to simter-reactive-test-0.4.0
+- Upgrade to simter-reactive-jpa-0.3.0
+- Upgrade to simter-reactive-io-0.2.0
+- Upgrade to jxls-2.8.0
+- Upgrade to modelmapper-2.3.7
+- Upgrade to json-unit-assertj-2.17.0
+- Upgrade to jsoup-1.13.1
+- Upgrade to johnzon-jsonb-extras-1.2.4
+- Upgrade to johnzon-jsonb-1.2.4
+- Upgrade to simter-build-1.3.0-M14
+
 ## 1.3.0-M13 - 2020-03-01
 
 - Rename spring.version to spring-framework.version
