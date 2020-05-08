@@ -1,5 +1,9 @@
 # simter-dependencies changelog
 
+## 1.3.0-M15 - 2020-05-08
+
+- Upgrade to simter-build-1.3.0-M15
+
 ## 1.3.0-M14 - 2020-04-17
 
 - Upgrade to simter-jpa-ext-1.2.0-M2
