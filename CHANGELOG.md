@@ -1,5 +1,24 @@
 # simter-dependencies changelog
 
+## 2.0.0-M1 - 2020-06-02
+
+- Upgrade to simter-build-2.0.0-M1
+- Move all custom version number to properties
+- Remove redundant dependency management
+- Upgrade to simter-parent-2.0.0-M1
+- Upgrade to simter-util-2.0.0-M1
+- Upgrade to simter-kotlin-2.0.0-M1
+- Upgrade to simter-r2dbc-ext-2.0.0-M1
+- Upgrade to simter-embedded-database-ext-2.0.0-M1
+- Upgrade to simter-reactive-test-0.5.0
+- Upgrade to simter-reactive-jpa-0.4.0
+- Upgrade to simter-reactive-security-2.0.0-M1
+- Upgrade to simter-reactive-io-0.3.0
+- Upgrade to simter-reactive-web-2.0.0-M1
+- Upgrade to simter-reactive-context-2.0.0-M1
+- Upgrade to simter-jxls-ext-2.0.0-M1
+- Upgrade to simter-jpa-ext-2.0.0-M1
+
 ## 1.3.0-M15 - 2020-05-08
 
 - Upgrade to simter-build-1.3.0-M15
