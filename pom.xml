@@ -62,7 +62,7 @@
     <simter-rest-jaxrs-jersey.version>1.1.0</simter-rest-jaxrs-jersey.version>
     <simter-exception.version>1.1.0</simter-exception.version>
     <simter-reactive-context.version>2.0.0-M1</simter-reactive-context.version>
-    <simter-reactive-web.version>1.2.0-M6</simter-reactive-web.version>
+    <simter-reactive-web.version>2.0.0-M1</simter-reactive-web.version>
     <simter-reactive-io.version>0.2.0</simter-reactive-io.version>
     <simter-reactive-security.version>1.2.0-M2</simter-reactive-security.version>
     <simter-reactive-jpa.version>0.3.0</simter-reactive-jpa.version>
