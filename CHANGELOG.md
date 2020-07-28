@@ -1,5 +1,12 @@
 # simter-dependencies changelog
 
+## 2.0.0-M2 - 2020-07-28
+
+- Upgrade to simter-build-2.0.0-M2
+- Upgrade to simter-kotlin-2.0.0-M2
+- Upgrade to simter-reactive-web-2.0.0-M2
+- Upgrade to simter-jackson-javatime-0.4.0
+
 ## 2.0.0-M1 - 2020-06-02
 
 - Upgrade to simter-build-2.0.0-M1
