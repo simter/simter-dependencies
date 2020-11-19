@@ -53,7 +53,7 @@
     <simter-mongo-ext.version>1.1.0</simter-mongo-ext.version>
     <simter-jackson-javatime.version>0.4.0</simter-jackson-javatime.version>
     <simter-jackson-jsonb.version>0.5.0</simter-jackson-jsonb.version>
-    <simter-json.version>1.1.0</simter-json.version>
+    <simter-json.version>2.0.0</simter-json.version>
     <simter-http.version>1.1.0</simter-http.version>
     <simter-jwt.version>2.0.0</simter-jwt.version>
     <simter-security.version>1.1.0</simter-security.version>
