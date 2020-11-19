@@ -63,7 +63,7 @@
     <simter-exception.version>2.0.0</simter-exception.version>
     <simter-reactive-context.version>2.0.0</simter-reactive-context.version>
     <simter-reactive-web.version>2.0.0</simter-reactive-web.version>
-    <simter-reactive-io.version>0.3.0</simter-reactive-io.version>
+    <simter-reactive-io.version>0.4.0</simter-reactive-io.version>
     <simter-reactive-security.version>2.0.0</simter-reactive-security.version>
     <simter-reactive-jpa.version>0.5.0</simter-reactive-jpa.version>
     <simter-reactive-test.version>0.6.0</simter-reactive-test.version>
