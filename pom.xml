@@ -70,7 +70,7 @@
     <simter-query.version>2.0.0</simter-query.version>
     <simter-r2dbc-ext.version>2.0.0-M1</simter-r2dbc-ext.version>
     <simter-kotlin.version>2.0.0-M2</simter-kotlin.version>
-    <simter-embedded-database-ext.version>2.0.0-M1</simter-embedded-database-ext.version>
+    <simter-embedded-database-ext.version>2.0.0</simter-embedded-database-ext.version>
 
     <!-- default embedded database version -->
     <simter.embedded-database.mongo.version>3.5.5</simter.embedded-database.mongo.version>
