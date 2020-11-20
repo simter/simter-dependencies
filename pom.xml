@@ -4,11 +4,11 @@
   <parent>
     <groupId>tech.simter</groupId>
     <artifactId>simter-build</artifactId>
-    <version>2.0.0-M2</version>
+    <version>2.0.0</version>
     <relativePath/>
   </parent>
   <artifactId>simter-dependencies</artifactId>
-  <version>2.0.0-M2</version>
+  <version>2.0.0</version>
   <packaging>pom</packaging>
   <name>simter-dependencies</name>
   <description>Simter Dependencies</description>
@@ -41,36 +41,36 @@
   </issueManagement>
   <properties>
     <!-- simter module version -->
-    <simter-parent.version>2.0.0-M1</simter-parent.version>
-    <simter-test.version>1.1.0</simter-test.version>
-    <simter-core.version>1.1.0</simter-core.version>
-    <simter-util.version>2.0.0-M1</simter-util.version>
-    <simter-template.version>1.1.0</simter-template.version>
-    <simter-context.version>1.1.0</simter-context.version>
-    <simter-genson-ext.version>1.1.0</simter-genson-ext.version>
-    <simter-jpa-ext.version>2.0.0-M1</simter-jpa-ext.version>
-    <simter-jxls-ext.version>2.0.0-M1</simter-jxls-ext.version>
-    <simter-mongo-ext.version>1.1.0</simter-mongo-ext.version>
-    <simter-jackson-javatime.version>0.4.0</simter-jackson-javatime.version>
-    <simter-jackson-jsonb.version>0.5.0</simter-jackson-jsonb.version>
-    <simter-json.version>1.1.0</simter-json.version>
-    <simter-http.version>1.1.0</simter-http.version>
-    <simter-jwt.version>1.1.0</simter-jwt.version>
-    <simter-security.version>1.1.0</simter-security.version>
-    <simter-scheduling.version>1.1.0</simter-scheduling.version>
-    <simter-rest-jaxrs.version>1.1.1</simter-rest-jaxrs.version>
-    <simter-rest-jaxrs-jersey.version>1.1.0</simter-rest-jaxrs-jersey.version>
-    <simter-exception.version>1.1.0</simter-exception.version>
-    <simter-reactive-context.version>2.0.0-M1</simter-reactive-context.version>
-    <simter-reactive-web.version>2.0.0-M2</simter-reactive-web.version>
-    <simter-reactive-io.version>0.3.0</simter-reactive-io.version>
-    <simter-reactive-security.version>2.0.0-M1</simter-reactive-security.version>
-    <simter-reactive-jpa.version>0.4.0</simter-reactive-jpa.version>
-    <simter-reactive-test.version>0.5.0</simter-reactive-test.version>
-    <simter-query.version>1.1.0</simter-query.version>
-    <simter-r2dbc-ext.version>2.0.0-M1</simter-r2dbc-ext.version>
-    <simter-kotlin.version>2.0.0-M2</simter-kotlin.version>
-    <simter-embedded-database-ext.version>2.0.0-M1</simter-embedded-database-ext.version>
+    <simter-parent.version>2.0.0</simter-parent.version>
+    <simter-test.version>2.0.0</simter-test.version>
+    <simter-core.version>2.0.0</simter-core.version>
+    <simter-util.version>2.0.0</simter-util.version>
+    <simter-template.version>2.0.0</simter-template.version>
+    <simter-context.version>2.0.0</simter-context.version>
+    <simter-genson-ext.version>2.0.0</simter-genson-ext.version>
+    <simter-jpa-ext.version>2.0.0</simter-jpa-ext.version>
+    <simter-jxls-ext.version>2.0.0</simter-jxls-ext.version>
+    <simter-mongo-ext.version>2.0.0</simter-mongo-ext.version>
+    <simter-jackson-javatime.version>0.5.0</simter-jackson-javatime.version>
+    <simter-jackson-jsonb.version>0.6.0</simter-jackson-jsonb.version>
+    <simter-json.version>2.0.0</simter-json.version>
+    <simter-http.version>2.0.0</simter-http.version>
+    <simter-jwt.version>2.0.0</simter-jwt.version>
+    <simter-security.version>2.0.0</simter-security.version>
+    <simter-scheduling.version>2.0.0</simter-scheduling.version>
+    <simter-rest-jaxrs.version>2.0.0</simter-rest-jaxrs.version>
+    <simter-rest-jaxrs-jersey.version>2.0.0</simter-rest-jaxrs-jersey.version>
+    <simter-exception.version>2.0.0</simter-exception.version>
+    <simter-reactive-context.version>2.0.0</simter-reactive-context.version>
+    <simter-reactive-web.version>2.0.0</simter-reactive-web.version>
+    <simter-reactive-io.version>0.4.0</simter-reactive-io.version>
+    <simter-reactive-security.version>2.0.0</simter-reactive-security.version>
+    <simter-reactive-jpa.version>0.5.0</simter-reactive-jpa.version>
+    <simter-reactive-test.version>0.6.0</simter-reactive-test.version>
+    <simter-query.version>2.0.0</simter-query.version>
+    <simter-r2dbc-ext.version>2.0.0</simter-r2dbc-ext.version>
+    <simter-kotlin.version>2.0.0</simter-kotlin.version>
+    <simter-embedded-database-ext.version>2.0.0</simter-embedded-database-ext.version>
 
     <!-- default embedded database version -->
     <simter.embedded-database.mongo.version>3.5.5</simter.embedded-database.mongo.version>
@@ -81,14 +81,14 @@
 
     <!-- some custom version -->
     <mockk.version>1.10.0</mockk.version>
-    <springmockk.version>2.0.1</springmockk.version>
+    <springmockk.version>2.0.3</springmockk.version>
     <eclipselink.version>2.7.7</eclipselink.version>
     <kotlinx-serialization.version>0.20.0</kotlinx-serialization.version>
     <mockito-kotlin.version>2.2.0</mockito-kotlin.version>
     <apiguardian-api.version>1.1.0</apiguardian-api.version>
     <glassfish.javax.json.version>1.1.4</glassfish.javax.json.version>
     <findbugs.jsr305.version>3.0.2</findbugs.jsr305.version>
-    <yasson.version>1.0.7</yasson.version>
+    <yasson.version>2.0.1</yasson.version>
     <javax.inject.version>1</javax.inject.version>
     <javaee-api.version>8.0.1</javaee-api.version>
     <javax.interceptor-api.version>1.2.2</javax.interceptor-api.version>
@@ -96,14 +96,14 @@
     <javax.ws.rs-api.version>2.1.1</javax.ws.rs-api.version>
     <genson.version>1.6</genson.version>
     <hamcrest-date.version>2.0.7</hamcrest-date.version>
-    <modelmapper.version>2.3.7</modelmapper.version>
-    <jxls.version>2.8.1</jxls.version>
+    <modelmapper.version>2.3.8</modelmapper.version>
+    <jxls.version>2.9.0</jxls.version>
     <jxls-reader.version>2.0.6</jxls-reader.version>
     <poi.version>4.1.2</poi.version>
     <poi.ooxml-schemas.version>1.4</poi.ooxml-schemas.version>
     <poi.ooxml-security.version>1.1</poi.ooxml-security.version>
     <xmlbeans.version>3.1.0</xmlbeans.version>
-    <commons-io.version>2.7</commons-io.version>
+    <commons-io.version>2.8.0</commons-io.version>
     <commons-compress.version>1.20</commons-compress.version>
     <flapdoodle.embedded-process.version>2.1.2</flapdoodle.embedded-process.version>
     <flapdoodle.embedded-mongo.version>2.2.0</flapdoodle.embedded-mongo.version>
@@ -111,8 +111,8 @@
     <flapdoodle.embedded-mysql.version>4.6.1</flapdoodle.embedded-mysql.version>
     <jsoup.version>1.13.1</jsoup.version>
     <immutables.value.version>2.8.8</immutables.value.version>
-    <auto-value.version>1.7.2</auto-value.version>
-    <json-unit-assertj.version>2.17.0</json-unit-assertj.version>
+    <auto-value.version>1.7.4</auto-value.version>
+    <json-unit-assertj.version>2.21.0</json-unit-assertj.version>
   </properties>
   <dependencyManagement>
     <dependencies>

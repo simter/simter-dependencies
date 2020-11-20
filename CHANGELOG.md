@@ -1,5 +1,38 @@
 # simter-dependencies changelog
 
+## 2.0.0 - 2020-11-19
+
+- Upgrade to simter-build-2.0.0
+- Upgrade to simter-parent-2.0.0
+- Upgrade to simter-context-2.0.0
+- Upgrade to simter-core-2.0.0
+- Upgrade to simter-jwt-2.0.0
+- Upgrade to simter-genson-ext-2.0.0
+- Upgrade to simter-rest-jaxrs-2.0.0
+- Upgrade to simter-rest-jaxrs-jersey-2.0.0
+- Upgrade to simter-test-2.0.0
+- Upgrade to simter-json-2.0.0
+- Upgrade to simter-jpa-ext-2.0.0
+- Upgrade to simter-jxls-ext-2.0.0
+- Upgrade to simter-mongo-ext-2.0.0
+- Upgrade to simter-jackson-javatime-0.5.0
+- Upgrade to simter-jackson-jsonb-0.6.0
+- Upgrade to simter-http-2.0.0
+- Upgrade to simter-util-2.0.0
+- Upgrade to simter-template-2.0.0
+- Upgrade to simter-scheduling-2.0.0
+- Upgrade to simter-exception-2.0.0
+- Upgrade to simter-query-2.0.0
+- Upgrade to simter-embedded-database-ext-2.0.0
+- Upgrade to simter-kotlin-2.0.0
+- Upgrade to simter-r2dbc-ext-2.0.0
+- Upgrade to simter-reactive-context-2.0.0
+- Upgrade to simter-reactive-web-2.0.0
+- Upgrade to simter-reactive-security-2.0.0
+- Upgrade to simter-reactive-test-0.6.0
+- Upgrade to simter-reactive-jpa-0.5.0
+- Upgrade to simter-reactive-io-0.4.0
+
 ## 2.0.0-M2 - 2020-07-28
 
 - Upgrade to simter-build-2.0.0-M2
