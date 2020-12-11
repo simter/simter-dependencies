@@ -80,7 +80,7 @@
     <simter.embedded-database.mysql.version>8.0.17</simter.embedded-database.mysql.version>
 
     <!-- some custom version -->
-    <mockk.version>1.10.0</mockk.version>
+    <mockk.version>1.10.3-jdk8</mockk.version>
     <springmockk.version>2.0.3</springmockk.version>
     <eclipselink.version>2.7.7</eclipselink.version>
     <kotlinx-serialization.version>0.20.0</kotlinx-serialization.version>
