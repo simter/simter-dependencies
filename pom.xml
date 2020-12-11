@@ -81,7 +81,7 @@
 
     <!-- some custom version -->
     <mockk.version>1.10.3-jdk8</mockk.version>
-    <springmockk.version>2.0.3</springmockk.version>
+    <springmockk.version>3.0.0</springmockk.version>
     <eclipselink.version>2.7.7</eclipselink.version>
     <kotlinx-serialization.version>0.20.0</kotlinx-serialization.version>
     <mockito-kotlin.version>2.2.0</mockito-kotlin.version>
