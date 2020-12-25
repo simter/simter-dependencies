@@ -270,8 +270,33 @@
       <!-- kotlinx-serialization -->
       <dependency>
         <groupId>org.jetbrains.kotlinx</groupId>
-        <artifactId>kotlinx-serialization-runtime</artifactId>
+        <artifactId>kotlinx-serialization-core</artifactId>
         <version>${kotlinx-serialization.version}</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlinx</groupId>
+        <artifactId>kotlinx-serialization-json</artifactId>
+        <version>${kotlinx-serialization.version}</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlinx</groupId>
+        <artifactId>kotlinx-serialization-protobuf</artifactId>
+        <version>${kotlinx-serialization.version}</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlinx</groupId>
+        <artifactId>kotlinx-serialization-properties</artifactId>
+        <version>${kotlinx-serialization.version}</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlinx</groupId>
+        <artifactId>kotlinx-serialization-cbor</artifactId>
+        <version>${kotlinx-serialization.version}</version>
+        <type>pom</type>
       </dependency>
 
       <!-- unit-test -->
