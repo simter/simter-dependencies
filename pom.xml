@@ -4,11 +4,11 @@
   <parent>
     <groupId>tech.simter</groupId>
     <artifactId>simter-build</artifactId>
-    <version>2.0.0</version>
+    <version>3.0.0-M1</version>
     <relativePath/>
   </parent>
   <artifactId>simter-dependencies</artifactId>
-  <version>2.0.0</version>
+  <version>3.0.0-M1</version>
   <packaging>pom</packaging>
   <name>simter-dependencies</name>
   <description>Simter Dependencies</description>
@@ -62,14 +62,14 @@
     <simter-rest-jaxrs-jersey.version>2.0.0</simter-rest-jaxrs-jersey.version>
     <simter-exception.version>2.0.0</simter-exception.version>
     <simter-reactive-context.version>2.0.0</simter-reactive-context.version>
-    <simter-reactive-web.version>2.0.0</simter-reactive-web.version>
+    <simter-reactive-web.version>3.0.0-M1</simter-reactive-web.version>
     <simter-reactive-io.version>0.4.0</simter-reactive-io.version>
     <simter-reactive-security.version>2.0.0</simter-reactive-security.version>
     <simter-reactive-jpa.version>0.5.0</simter-reactive-jpa.version>
     <simter-reactive-test.version>0.6.0</simter-reactive-test.version>
     <simter-query.version>2.0.0</simter-query.version>
-    <simter-r2dbc-ext.version>2.0.0</simter-r2dbc-ext.version>
-    <simter-kotlin.version>2.0.0</simter-kotlin.version>
+    <simter-r2dbc-ext.version>3.0.0-M1</simter-r2dbc-ext.version>
+    <simter-kotlin.version>3.0.0-M1</simter-kotlin.version>
     <simter-embedded-database-ext.version>2.0.0</simter-embedded-database-ext.version>
 
     <!-- default embedded database version -->
@@ -80,10 +80,10 @@
     <simter.embedded-database.mysql.version>8.0.17</simter.embedded-database.mysql.version>
 
     <!-- some custom version -->
-    <mockk.version>1.10.0</mockk.version>
-    <springmockk.version>2.0.3</springmockk.version>
+    <mockk.version>1.10.3-jdk8</mockk.version>
+    <springmockk.version>3.0.0</springmockk.version>
     <eclipselink.version>2.7.7</eclipselink.version>
-    <kotlinx-serialization.version>0.20.0</kotlinx-serialization.version>
+    <kotlinx-serialization.version>1.0.1</kotlinx-serialization.version>
     <mockito-kotlin.version>2.2.0</mockito-kotlin.version>
     <apiguardian-api.version>1.1.0</apiguardian-api.version>
     <glassfish.javax.json.version>1.1.4</glassfish.javax.json.version>
@@ -270,8 +270,33 @@
       <!-- kotlinx-serialization -->
       <dependency>
         <groupId>org.jetbrains.kotlinx</groupId>
-        <artifactId>kotlinx-serialization-runtime</artifactId>
+        <artifactId>kotlinx-serialization-core</artifactId>
         <version>${kotlinx-serialization.version}</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlinx</groupId>
+        <artifactId>kotlinx-serialization-json</artifactId>
+        <version>${kotlinx-serialization.version}</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlinx</groupId>
+        <artifactId>kotlinx-serialization-protobuf</artifactId>
+        <version>${kotlinx-serialization.version}</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlinx</groupId>
+        <artifactId>kotlinx-serialization-properties</artifactId>
+        <version>${kotlinx-serialization.version}</version>
+        <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.jetbrains.kotlinx</groupId>
+        <artifactId>kotlinx-serialization-cbor</artifactId>
+        <version>${kotlinx-serialization.version}</version>
+        <type>pom</type>
       </dependency>
 
       <!-- unit-test -->

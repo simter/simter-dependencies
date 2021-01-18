@@ -1,5 +1,13 @@
 # simter-dependencies changelog
 
+## 3.0.0-M1 - 2021-01-18
+
+- Upgrade to simter-build-3.0.0-M1
+- Upgrade to simter-r2dbc-ext-3.0.0-M1
+- Upgrade to simter-kotlin-3.0.0-M1
+- Upgrade to simter-reactive-web-3.0.0-M1
+- Add kotlinx-serialization dependencyMamagement
+
 ## 2.0.0 - 2020-11-19
 
 - Upgrade to simter-build-2.0.0
