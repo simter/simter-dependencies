@@ -1,5 +1,12 @@
 # simter-dependencies changelog
 
+## 3.0.0-M2 - 2021-04-21
+
+- Upgrade to simter-build-3.0.0-M2
+- Upgrade to simter-r2dbc-ext-3.0.0-M2
+- Upgrade to simter-kotlin-3.0.0-M2
+- Upgrade to simter-reactive-web-3.0.0-M2
+
 ## 3.0.0-M1 - 2021-01-18
 
 - Upgrade to simter-build-3.0.0-M1
