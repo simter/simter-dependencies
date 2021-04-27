@@ -55,7 +55,7 @@
     <simter-jackson-jsonb.version>0.6.0</simter-jackson-jsonb.version>
     <simter-json.version>2.0.0</simter-json.version>
     <simter-http.version>2.0.0</simter-http.version>
-    <simter-jwt.version>2.0.0</simter-jwt.version>
+    <simter-jwt.version>3.0.0-M1</simter-jwt.version>
     <simter-security.version>2.0.0</simter-security.version>
     <simter-scheduling.version>2.0.0</simter-scheduling.version>
     <simter-rest-jaxrs.version>2.0.0</simter-rest-jaxrs.version>
