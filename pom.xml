@@ -69,7 +69,7 @@
     <simter-reactive-test.version>0.6.0</simter-reactive-test.version>
     <simter-query.version>2.0.0</simter-query.version>
     <simter-r2dbc-ext.version>3.0.0-M2</simter-r2dbc-ext.version>
-    <simter-kotlin.version>3.0.0-M2</simter-kotlin.version>
+    <simter-kotlin.version>3.0.0-M3</simter-kotlin.version>
     <simter-embedded-database-ext.version>2.0.0</simter-embedded-database-ext.version>
 
     <!-- default embedded database version -->
