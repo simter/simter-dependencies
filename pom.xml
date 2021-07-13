@@ -112,7 +112,7 @@
     <jsoup.version>1.14.1</jsoup.version>
     <immutables.value.version>2.8.8</immutables.value.version>
     <auto-value.version>1.7.4</auto-value.version>
-    <json-unit-assertj.version>2.21.0</json-unit-assertj.version>
+    <json-unit-assertj.version>2.27.0</json-unit-assertj.version>
   </properties>
   <dependencyManagement>
     <dependencies>
