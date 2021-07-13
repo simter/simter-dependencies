@@ -97,7 +97,7 @@
     <genson.version>1.6</genson.version>
     <hamcrest-date.version>2.0.7</hamcrest-date.version>
     <modelmapper.version>2.4.4</modelmapper.version>
-    <jxls.version>2.9.0</jxls.version>
+    <jxls.version>2.10.0</jxls.version>
     <jxls-reader.version>2.0.6</jxls-reader.version>
     <poi.version>4.1.2</poi.version>
     <poi.ooxml-schemas.version>1.4</poi.ooxml-schemas.version>
