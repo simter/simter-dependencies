@@ -96,7 +96,7 @@
     <javax.ws.rs-api.version>2.1.1</javax.ws.rs-api.version>
     <genson.version>1.6</genson.version>
     <hamcrest-date.version>2.0.7</hamcrest-date.version>
-    <modelmapper.version>2.3.8</modelmapper.version>
+    <modelmapper.version>2.4.4</modelmapper.version>
     <jxls.version>2.9.0</jxls.version>
     <jxls-reader.version>2.0.6</jxls-reader.version>
     <poi.version>4.1.2</poi.version>
