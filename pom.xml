@@ -109,7 +109,7 @@
     <flapdoodle.embedded-mongo.version>2.2.0</flapdoodle.embedded-mongo.version>
     <flapdoodle.embedded-postgres.version>2.10</flapdoodle.embedded-postgres.version>
     <flapdoodle.embedded-mysql.version>4.6.1</flapdoodle.embedded-mysql.version>
-    <jsoup.version>1.13.1</jsoup.version>
+    <jsoup.version>1.14.1</jsoup.version>
     <immutables.value.version>2.8.8</immutables.value.version>
     <auto-value.version>1.7.4</auto-value.version>
     <json-unit-assertj.version>2.21.0</json-unit-assertj.version>
