@@ -1,5 +1,23 @@
 # simter-dependencies changelog
 
+## 3.0.0-M3 - 2021-07-15
+
+- Upgrade to simter-build-3.0.0-M3
+- Upgrade to simter-kotlin-3.0.0-M3
+- Upgrade to simter-jwt-3.0.0-M2
+- Upgrade to simter-r2dbc-ext-3.0.0-M3
+- Upgrade to simter-reactive-web-3.0.0-M3
+- Upgrade to de.flapdoodle.embed.process-3.0.0
+- Upgrade to de.flapdoodle.embed.mongo-3.0.0
+- Upgrade to springmockk-3.0.1
+- Upgrade to eclipselink-2.7.9
+- Upgrade to yasson-2.0.2
+- Upgrade to modelmapper-2.4.4
+- Upgrade to jxls-2.10.0
+- Upgrade to jsoup-1.14.1
+- Upgrade to json-unit-assertj-2.27.0
+- Upgrade to kotlinx-serialization-1.2.2
+
 ## 3.0.0-M2 - 2021-04-21
 
 - Upgrade to simter-build-3.0.0-M2

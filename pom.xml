@@ -4,11 +4,11 @@
   <parent>
     <groupId>tech.simter</groupId>
     <artifactId>simter-build</artifactId>
-    <version>3.0.0-M2</version>
+    <version>3.0.0-M3</version>
     <relativePath/>
   </parent>
   <artifactId>simter-dependencies</artifactId>
-  <version>3.0.0-M2</version>
+  <version>3.0.0-M3</version>
   <packaging>pom</packaging>
   <name>simter-dependencies</name>
   <description>Simter Dependencies</description>
@@ -55,21 +55,21 @@
     <simter-jackson-jsonb.version>0.6.0</simter-jackson-jsonb.version>
     <simter-json.version>2.0.0</simter-json.version>
     <simter-http.version>2.0.0</simter-http.version>
-    <simter-jwt.version>3.0.0-M1</simter-jwt.version>
+    <simter-jwt.version>3.0.0-M2</simter-jwt.version>
     <simter-security.version>2.0.0</simter-security.version>
     <simter-scheduling.version>2.0.0</simter-scheduling.version>
     <simter-rest-jaxrs.version>2.0.0</simter-rest-jaxrs.version>
     <simter-rest-jaxrs-jersey.version>2.0.0</simter-rest-jaxrs-jersey.version>
     <simter-exception.version>2.0.0</simter-exception.version>
     <simter-reactive-context.version>2.0.0</simter-reactive-context.version>
-    <simter-reactive-web.version>3.0.0-M2</simter-reactive-web.version>
+    <simter-reactive-web.version>3.0.0-M3</simter-reactive-web.version>
     <simter-reactive-io.version>0.4.0</simter-reactive-io.version>
     <simter-reactive-security.version>2.0.0</simter-reactive-security.version>
     <simter-reactive-jpa.version>0.5.0</simter-reactive-jpa.version>
     <simter-reactive-test.version>0.6.0</simter-reactive-test.version>
     <simter-query.version>2.0.0</simter-query.version>
-    <simter-r2dbc-ext.version>3.0.0-M2</simter-r2dbc-ext.version>
-    <simter-kotlin.version>3.0.0-M2</simter-kotlin.version>
+    <simter-r2dbc-ext.version>3.0.0-M3</simter-r2dbc-ext.version>
+    <simter-kotlin.version>3.0.0-M3</simter-kotlin.version>
     <simter-embedded-database-ext.version>2.0.0</simter-embedded-database-ext.version>
 
     <!-- default embedded database version -->
@@ -81,14 +81,14 @@
 
     <!-- some custom version -->
     <mockk.version>1.10.3-jdk8</mockk.version>
-    <springmockk.version>3.0.0</springmockk.version>
-    <eclipselink.version>2.7.7</eclipselink.version>
-    <kotlinx-serialization.version>1.1.0</kotlinx-serialization.version>
+    <springmockk.version>3.0.1</springmockk.version>
+    <eclipselink.version>2.7.9</eclipselink.version>
+    <kotlinx-serialization.version>1.2.2</kotlinx-serialization.version>
     <mockito-kotlin.version>2.2.0</mockito-kotlin.version>
     <apiguardian-api.version>1.1.0</apiguardian-api.version>
     <glassfish.javax.json.version>1.1.4</glassfish.javax.json.version>
     <findbugs.jsr305.version>3.0.2</findbugs.jsr305.version>
-    <yasson.version>2.0.1</yasson.version>
+    <yasson.version>2.0.2</yasson.version>
     <javax.inject.version>1</javax.inject.version>
     <javaee-api.version>8.0.1</javaee-api.version>
     <javax.interceptor-api.version>1.2.2</javax.interceptor-api.version>
@@ -96,8 +96,8 @@
     <javax.ws.rs-api.version>2.1.1</javax.ws.rs-api.version>
     <genson.version>1.6</genson.version>
     <hamcrest-date.version>2.0.7</hamcrest-date.version>
-    <modelmapper.version>2.3.8</modelmapper.version>
-    <jxls.version>2.9.0</jxls.version>
+    <modelmapper.version>2.4.4</modelmapper.version>
+    <jxls.version>2.10.0</jxls.version>
     <jxls-reader.version>2.0.6</jxls-reader.version>
     <poi.version>4.1.2</poi.version>
     <poi.ooxml-schemas.version>1.4</poi.ooxml-schemas.version>
@@ -105,14 +105,14 @@
     <xmlbeans.version>3.1.0</xmlbeans.version>
     <commons-io.version>2.8.0</commons-io.version>
     <commons-compress.version>1.20</commons-compress.version>
-    <flapdoodle.embedded-process.version>2.1.2</flapdoodle.embedded-process.version>
-    <flapdoodle.embedded-mongo.version>2.2.0</flapdoodle.embedded-mongo.version>
+    <flapdoodle.embedded-process.version>3.0.0</flapdoodle.embedded-process.version>
+    <flapdoodle.embedded-mongo.version>3.0.0</flapdoodle.embedded-mongo.version>
     <flapdoodle.embedded-postgres.version>2.10</flapdoodle.embedded-postgres.version>
     <flapdoodle.embedded-mysql.version>4.6.1</flapdoodle.embedded-mysql.version>
-    <jsoup.version>1.13.1</jsoup.version>
+    <jsoup.version>1.14.1</jsoup.version>
     <immutables.value.version>2.8.8</immutables.value.version>
     <auto-value.version>1.7.4</auto-value.version>
-    <json-unit-assertj.version>2.21.0</json-unit-assertj.version>
+    <json-unit-assertj.version>2.27.0</json-unit-assertj.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -270,33 +270,10 @@
       <!-- kotlinx-serialization -->
       <dependency>
         <groupId>org.jetbrains.kotlinx</groupId>
-        <artifactId>kotlinx-serialization-core</artifactId>
+        <artifactId>kotlinx-serialization-bom</artifactId>
         <version>${kotlinx-serialization.version}</version>
         <type>pom</type>
-      </dependency>
-      <dependency>
-        <groupId>org.jetbrains.kotlinx</groupId>
-        <artifactId>kotlinx-serialization-json</artifactId>
-        <version>${kotlinx-serialization.version}</version>
-        <type>pom</type>
-      </dependency>
-      <dependency>
-        <groupId>org.jetbrains.kotlinx</groupId>
-        <artifactId>kotlinx-serialization-protobuf</artifactId>
-        <version>${kotlinx-serialization.version}</version>
-        <type>pom</type>
-      </dependency>
-      <dependency>
-        <groupId>org.jetbrains.kotlinx</groupId>
-        <artifactId>kotlinx-serialization-properties</artifactId>
-        <version>${kotlinx-serialization.version}</version>
-        <type>pom</type>
-      </dependency>
-      <dependency>
-        <groupId>org.jetbrains.kotlinx</groupId>
-        <artifactId>kotlinx-serialization-cbor</artifactId>
-        <version>${kotlinx-serialization.version}</version>
-        <type>pom</type>
+        <scope>import</scope>
       </dependency>
 
       <!-- unit-test -->
