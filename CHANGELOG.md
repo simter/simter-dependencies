@@ -1,5 +1,13 @@
 # simter-dependencies changelog
 
+## 3.0.0-M4 - 2021-08-26
+
+- Upgrade to simter-build-3.0.0-M4
+- Upgrade to simter-kotlin-3.0.0-M4
+- Upgrade to simter-reactive-security-2.0.1
+- Upgrade to simter-reactive-web-3.0.0-M4
+- Upgrade to jsoup-1.14.2
+
 ## 3.0.0-M3 - 2021-08-18
 
 - Upgrade to simter-build-3.0.0-M3

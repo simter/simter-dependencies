@@ -4,11 +4,11 @@
   <parent>
     <groupId>tech.simter</groupId>
     <artifactId>simter-build</artifactId>
-    <version>3.0.0-M3</version>
+    <version>3.0.0-M4</version>
     <relativePath/>
   </parent>
   <artifactId>simter-dependencies</artifactId>
-  <version>3.0.0-M3</version>
+  <version>3.0.0-M4</version>
   <packaging>pom</packaging>
   <name>simter-dependencies</name>
   <description>Simter Dependencies</description>
@@ -62,14 +62,14 @@
     <simter-rest-jaxrs-jersey.version>2.0.0</simter-rest-jaxrs-jersey.version>
     <simter-exception.version>2.0.0</simter-exception.version>
     <simter-reactive-context.version>2.0.0</simter-reactive-context.version>
-    <simter-reactive-web.version>3.0.0-M3</simter-reactive-web.version>
+    <simter-reactive-web.version>3.0.0-M4</simter-reactive-web.version>
     <simter-reactive-io.version>0.4.0</simter-reactive-io.version>
-    <simter-reactive-security.version>2.0.0</simter-reactive-security.version>
+    <simter-reactive-security.version>2.0.1</simter-reactive-security.version>
     <simter-reactive-jpa.version>0.5.0</simter-reactive-jpa.version>
     <simter-reactive-test.version>0.6.0</simter-reactive-test.version>
     <simter-query.version>2.0.0</simter-query.version>
     <simter-r2dbc-ext.version>3.0.0-M3</simter-r2dbc-ext.version>
-    <simter-kotlin.version>3.0.0-M3</simter-kotlin.version>
+    <simter-kotlin.version>3.0.0-M4</simter-kotlin.version>
     <simter-embedded-database-ext.version>2.0.0</simter-embedded-database-ext.version>
 
     <!-- default embedded database version -->
@@ -109,7 +109,7 @@
     <flapdoodle.embedded-mongo.version>3.0.0</flapdoodle.embedded-mongo.version>
     <flapdoodle.embedded-postgres.version>2.10</flapdoodle.embedded-postgres.version>
     <flapdoodle.embedded-mysql.version>4.6.1</flapdoodle.embedded-mysql.version>
-    <jsoup.version>1.14.1</jsoup.version>
+    <jsoup.version>1.14.2</jsoup.version>
     <immutables.value.version>2.8.8</immutables.value.version>
     <auto-value.version>1.7.4</auto-value.version>
     <json-unit-assertj.version>2.27.0</json-unit-assertj.version>
