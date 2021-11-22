@@ -1,5 +1,11 @@
 # simter-dependencies changelog
 
+## 3.0.0-M5 - 2021-11-22
+
+- Upgrade to simter-build-3.0.0-M5
+- Upgrade to Upgrade to mockk-1.12.1
+- Upgrade to simter-reactive-web-3.0.0-M5
+
 ## 3.0.0-M4 - 2021-08-26
 
 - Upgrade to simter-build-3.0.0-M4
