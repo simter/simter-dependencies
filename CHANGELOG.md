@@ -1,9 +1,19 @@
 # simter-dependencies changelog
 
+## 3.0.0-M6 - 2022-01-06
+
+- Upgrade to simter-build-3.0.0-M6
+- Upgrade to mockk-1.12.2
+- Upgrade to springmockk-3.1.0
+- Upgrade to kotlinx-serialization-1.3.2
+- Upgrade to jxls-2.11.0
+- Upgrade to jsoup-1.14.3
+- Upgrade to json-unit-assertj-2.28.0
+
 ## 3.0.0-M5 - 2021-11-22
 
 - Upgrade to simter-build-3.0.0-M5
-- Upgrade to Upgrade to mockk-1.12.1
+- Upgrade to mockk-1.12.1
 - Upgrade to simter-reactive-web-3.0.0-M5
 
 ## 3.0.0-M4 - 2021-08-26
