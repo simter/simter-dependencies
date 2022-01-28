@@ -4,11 +4,11 @@
   <parent>
     <groupId>tech.simter</groupId>
     <artifactId>simter-build</artifactId>
-    <version>3.0.0-M6</version>
+    <version>3.0.0-M7</version>
     <relativePath/>
   </parent>
   <artifactId>simter-dependencies</artifactId>
-  <version>3.0.0-M6</version>
+  <version>3.0.0-M7</version>
   <packaging>pom</packaging>
   <name>simter-dependencies</name>
   <description>Simter Dependencies</description>

@@ -1,5 +1,9 @@
 # simter-dependencies changelog
 
+## 3.0.0-M7 - 2022-01-28
+
+- Upgrade to simter-build-3.0.0-M7
+
 ## 3.0.0-M6 - 2022-01-06
 
 - Upgrade to simter-build-3.0.0-M6
