@@ -41,35 +41,35 @@
   </issueManagement>
   <properties>
     <!-- simter module version -->
-    <simter-parent.version>2.0.0</simter-parent.version>
-    <simter-test.version>2.0.0</simter-test.version>
-    <simter-core.version>2.0.0</simter-core.version>
-    <simter-util.version>2.1.0</simter-util.version>
-    <simter-template.version>2.0.0</simter-template.version>
-    <simter-context.version>2.0.0</simter-context.version>
-    <simter-genson-ext.version>2.0.0</simter-genson-ext.version>
-    <simter-jpa-ext.version>2.0.0</simter-jpa-ext.version>
-    <simter-jxls-ext.version>2.0.0</simter-jxls-ext.version>
-    <simter-mongo-ext.version>2.0.0</simter-mongo-ext.version>
-    <simter-jackson-javatime.version>0.5.0</simter-jackson-javatime.version>
-    <simter-jackson-jsonb.version>0.6.0</simter-jackson-jsonb.version>
-    <simter-json.version>2.0.0</simter-json.version>
-    <simter-http.version>2.0.0</simter-http.version>
-    <simter-jwt.version>3.0.0-M2</simter-jwt.version>
-    <simter-security.version>2.0.0</simter-security.version>
-    <simter-scheduling.version>2.0.0</simter-scheduling.version>
-    <simter-rest-jaxrs.version>2.0.0</simter-rest-jaxrs.version>
-    <simter-rest-jaxrs-jersey.version>2.0.0</simter-rest-jaxrs-jersey.version>
-    <simter-exception.version>2.0.0</simter-exception.version>
-    <simter-reactive-context.version>2.0.0</simter-reactive-context.version>
-    <simter-reactive-web.version>3.0.0-M5</simter-reactive-web.version>
-    <simter-reactive-io.version>0.4.0</simter-reactive-io.version>
-    <simter-reactive-security.version>2.0.1</simter-reactive-security.version>
-    <simter-reactive-jpa.version>0.5.0</simter-reactive-jpa.version>
-    <simter-reactive-test.version>0.6.0</simter-reactive-test.version>
-    <simter-query.version>2.0.0</simter-query.version>
-    <simter-r2dbc-ext.version>3.0.0-M3</simter-r2dbc-ext.version>
-    <simter-kotlin.version>3.0.0-M4</simter-kotlin.version>
+    <simter-parent.version>3.0.0</simter-parent.version>
+    <simter-test.version>3.0.0</simter-test.version>
+    <simter-core.version>3.0.0</simter-core.version>
+    <simter-util.version>3.0.0</simter-util.version>
+    <simter-template.version>3.0.0</simter-template.version>
+    <simter-context.version>3.0.0</simter-context.version>
+    <simter-genson-ext.version>3.0.0</simter-genson-ext.version>
+    <simter-jpa-ext.version>3.0.0</simter-jpa-ext.version>
+    <simter-jxls-ext.version>3.0.0</simter-jxls-ext.version>
+    <simter-mongo-ext.version>3.0.0</simter-mongo-ext.version>
+    <simter-jackson-javatime.version>0.6.0</simter-jackson-javatime.version>
+    <simter-jackson-jsonb.version>0.7.0</simter-jackson-jsonb.version>
+    <simter-json.version>3.0.0</simter-json.version>
+    <simter-http.version>3.0.0</simter-http.version>
+    <simter-jwt.version>3.0.0</simter-jwt.version>
+    <simter-security.version>3.0.0</simter-security.version>
+    <simter-scheduling.version>3.0.0</simter-scheduling.version>
+    <simter-rest-jaxrs.version>3.0.0</simter-rest-jaxrs.version>
+    <simter-rest-jaxrs-jersey.version>3.0.0</simter-rest-jaxrs-jersey.version>
+    <simter-exception.version>3.0.0</simter-exception.version>
+    <simter-reactive-context.version>3.0.0</simter-reactive-context.version>
+    <simter-reactive-web.version>3.0.0</simter-reactive-web.version>
+    <simter-reactive-security.version>3.0.0</simter-reactive-security.version>
+    <simter-reactive-io.version>0.5.0</simter-reactive-io.version>
+    <simter-reactive-jpa.version>0.6.0</simter-reactive-jpa.version>
+    <simter-reactive-test.version>0.7.0</simter-reactive-test.version>
+    <simter-query.version>3.0.0</simter-query.version>
+    <simter-r2dbc-ext.version>3.0.0</simter-r2dbc-ext.version>
+    <simter-kotlin.version>3.0.0</simter-kotlin.version>
     <simter-embedded-database-ext.version>2.0.0</simter-embedded-database-ext.version>
 
     <!-- default embedded database version -->
@@ -109,7 +109,7 @@
     <!-- For embedded database
       See https://github.com/flapdoodle-oss/de.flapdoodle.embed.process
 
-      postgresql-embedded endin 2.10 with embedded-process-v3.0.0,
+      postgresql-embedded endin 2.10 with embedded-process-v3.0.0, 
       so now not support anymore.
       See https://github.com/yandex-qatools/postgresql-embedded
     -->
