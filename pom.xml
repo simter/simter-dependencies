@@ -116,8 +116,9 @@
     <flapdoodle.embedded-process.version>3.1.11</flapdoodle.embedded-process.version>
     <flapdoodle.embedded-mongo.version>3.4.6</flapdoodle.embedded-mongo.version>
     <flapdoodle.embedded-mongo-spring.version>1.1.0-spring27x</flapdoodle.embedded-mongo-spring.version>
+    <flapdoodle.embedded-mysql.version>4.6.2</flapdoodle.embedded-mysql.version>
     <flapdoodle.embedded-postgres.version>2.10</flapdoodle.embedded-postgres.version>
-    <flapdoodle.embedded-mysql.version>4.6.1</flapdoodle.embedded-mysql.version>
+
     <jsoup.version>1.14.3</jsoup.version>
     <immutables.value.version>2.8.8</immutables.value.version>
     <auto-value.version>1.7.4</auto-value.version>
