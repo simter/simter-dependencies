@@ -61,7 +61,7 @@
 - Upgrade to simter-r2dbc-ext-3.0.0-M1
 - Upgrade to simter-kotlin-3.0.0-M1
 - Upgrade to simter-reactive-web-3.0.0-M1
-- Add kotlinx-serialization dependencyMamagement
+- Add kotlinx-serialization dependencyManagement
 
 ## 2.0.0 - 2020-11-19
 
@@ -205,7 +205,7 @@
 - Upgrade to simter-r2dbc-ext-1.4.0-M2
 - Upgrade to simter-reactive-web-1.2.0-M4
 - Upgrade to Upgrade to simter-embedded-database-ext-1.1.0-M2
-- Add r2dbc-client dependencManagement - because [r2dbc-client/issue#63](https://github.com/r2dbc/r2dbc-client/issues/63)
+- Add r2dbc-client dependencyManagement - because [r2dbc-client/issue#63](https://github.com/r2dbc/r2dbc-client/issues/63)
 
 ## 1.3.0-M8 - 2019-12-03
 
