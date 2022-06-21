@@ -1,5 +1,19 @@
 # simter-dependencies changelog
 
+## 3.0.0 - 2022-06-21
+
+- Upgrade to simter-build-3.0.0 (jdk-17)
+- Upgrade simter submodules version
+- Upgrade to jsoup-1.15.1
+- Upgrade to flapdoodle.embedded-mysql-4.6.2
+- Add flapdoodle.embedded-mongo-spring-1.1.0-spring27x
+- Upgrade to flapdoodle.embedded-mongo-3.4.6
+- Upgrade to flapdoodle.embedded-process-3.1.11
+- Upgrade to kotlinx-serialization-1.3.3
+- Upgrade to eclipselink-2.7.10
+- Upgrade to springmockk-3.1.1
+- Upgrade to mockk-1.12.4
+
 ## 3.0.0-M7 - 2022-01-28
 
 - Upgrade to simter-build-3.0.0-M7
