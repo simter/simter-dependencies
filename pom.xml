@@ -44,7 +44,7 @@
     <simter-parent.version>3.0.0</simter-parent.version>
     <simter-test.version>3.0.0</simter-test.version>
     <simter-core.version>3.0.0</simter-core.version>
-    <simter-util.version>3.0.0</simter-util.version>
+    <simter-util.version>3.1.0</simter-util.version>
     <simter-template.version>3.0.0</simter-template.version>
     <simter-context.version>3.0.0</simter-context.version>
     <simter-genson-ext.version>3.0.0</simter-genson-ext.version>
