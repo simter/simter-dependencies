@@ -1,5 +1,14 @@
 # simter-dependencies changelog
 
+## 3.1.0 - 2022-09-02
+
+- Upgrade to simter-build-3.1.0
+- Upgrade to simter-util-3.1.0
+- Upgrade to simter-r2dbc-ext-3.1.0
+- Upgrade to simter-query-3.1.0
+- Add commons-text-1.9 to dependency management
+- Upgrade to jsoup-1.15.3
+
 ## 3.0.0 - 2022-06-21
 
 - Upgrade to simter-build-3.0.0 (jdk-17)
