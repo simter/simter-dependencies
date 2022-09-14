@@ -1,5 +1,11 @@
 # simter-dependencies changelog
 
+## 3.2.0 - 2022-09-14
+
+- Upgrade to simter-build-3.2.0
+- Upgrade to simter-r2dbc-ext-3.2.0
+- Upgrade to simter-kotlin-3.1.0
+
 ## 3.1.0 - 2022-09-02
 
 - Upgrade to simter-build-3.1.0
