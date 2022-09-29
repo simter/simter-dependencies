@@ -1,5 +1,9 @@
 # simter-dependencies changelog
 
+## 3.3.0 - 2022-09-29
+
+- Upgrade to simter-build-3.3.0
+
 ## 3.2.0 - 2022-09-14
 
 - Upgrade to simter-build-3.2.0
