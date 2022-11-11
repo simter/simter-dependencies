@@ -72,7 +72,8 @@
     <simter-kotlin.version>3.1.0</simter-kotlin.version>
 
     <!-- default embedded database version -->
-    <simter.embedded-database.mongo.version>3.5.5</simter.embedded-database.mongo.version>
+    <simter.embedded-database.mongo.version>4.4.9</simter.embedded-database.mongo.version>
+
     <!-- some custom version -->
     <mockk.version>1.12.4</mockk.version>
     <springmockk.version>3.1.1</springmockk.version>
