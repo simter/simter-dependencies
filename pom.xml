@@ -4,11 +4,11 @@
   <parent>
     <groupId>tech.simter</groupId>
     <artifactId>simter-build</artifactId>
-    <version>3.3.0</version>
+    <version>3.4.0</version>
     <relativePath/>
   </parent>
   <artifactId>simter-dependencies</artifactId>
-  <version>3.3.0</version>
+  <version>3.4.0</version>
   <packaging>pom</packaging>
   <name>simter-dependencies</name>
   <description>Simter Dependencies</description>
@@ -68,16 +68,11 @@
     <simter-reactive-jpa.version>0.6.0</simter-reactive-jpa.version>
     <simter-reactive-test.version>0.7.0</simter-reactive-test.version>
     <simter-query.version>3.1.0</simter-query.version>
-    <simter-r2dbc-ext.version>3.2.0</simter-r2dbc-ext.version>
-    <simter-kotlin.version>3.1.0</simter-kotlin.version>
-    <simter-embedded-database-ext.version>2.0.0</simter-embedded-database-ext.version>
+    <simter-r2dbc-ext.version>3.3.0</simter-r2dbc-ext.version>
+    <simter-kotlin.version>3.2.0</simter-kotlin.version>
 
     <!-- default embedded database version -->
-    <simter.embedded-database.mongo.version>3.5.5</simter.embedded-database.mongo.version>
-    <!-- 9.5.16-1, 9.6.12-1, 10.7-1, 10.10-2, 11.2-1, 11.5-2, 12.0-1 -->
-    <simter.embedded-database.postgres.version>10.10-2</simter.embedded-database.postgres.version>
-    <!-- 5.6.36, 5.7.19, 5.7.27, 8.0.11, 8.0.17 -->
-    <simter.embedded-database.mysql.version>8.0.17</simter.embedded-database.mysql.version>
+    <simter.embedded-database.mongo.version>4.4.9</simter.embedded-database.mongo.version>
 
     <!-- some custom version -->
     <mockk.version>1.12.4</mockk.version>
@@ -106,19 +101,6 @@
     <commons-io.version>2.8.0</commons-io.version>
     <commons-text.version>1.9</commons-text.version>
     <commons-compress.version>1.21</commons-compress.version>
-
-    <!-- For embedded database
-      See https://github.com/flapdoodle-oss/de.flapdoodle.embed.process
-
-      postgresql-embedded endin 2.10 with embedded-process-v3.0.0, 
-      so now not support anymore.
-      See https://github.com/yandex-qatools/postgresql-embedded
-    -->
-    <flapdoodle.embedded-process.version>3.1.11</flapdoodle.embedded-process.version>
-    <flapdoodle.embedded-mongo.version>3.4.6</flapdoodle.embedded-mongo.version>
-    <flapdoodle.embedded-mongo-spring.version>1.1.0-spring27x</flapdoodle.embedded-mongo-spring.version>
-    <flapdoodle.embedded-mysql.version>4.6.2</flapdoodle.embedded-mysql.version>
-    <flapdoodle.embedded-postgres.version>2.10</flapdoodle.embedded-postgres.version>
 
     <jsoup.version>1.15.3</jsoup.version>
     <immutables.value.version>2.8.8</immutables.value.version>
@@ -272,11 +254,6 @@
         <groupId>tech.simter</groupId>
         <artifactId>simter-kotlin</artifactId>
         <version>${simter-kotlin.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>tech.simter</groupId>
-        <artifactId>simter-embedded-database-ext</artifactId>
-        <version>${simter-embedded-database-ext.version}</version>
       </dependency>
       <!-- kotlinx-serialization -->
       <dependency>
@@ -516,33 +493,6 @@
         <groupId>org.jsoup</groupId>
         <artifactId>jsoup</artifactId>
         <version>${jsoup.version}</version>
-      </dependency>
-
-      <!-- flapdoodle -->
-      <dependency>
-        <groupId>de.flapdoodle.embed</groupId>
-        <artifactId>de.flapdoodle.embed.process</artifactId>
-        <version>${flapdoodle.embedded-process.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>de.flapdoodle.embed</groupId>
-        <artifactId>de.flapdoodle.embed.mongo</artifactId>
-        <version>${flapdoodle.embedded-mongo.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>de.flapdoodle.embed</groupId>
-        <artifactId>de.flapdoodle.embed.mongo.spring</artifactId>
-        <version>${flapdoodle.embedded-mongo-spring.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>com.wix</groupId>
-        <artifactId>wix-embedded-mysql</artifactId>
-        <version>${flapdoodle.embedded-mysql.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>ru.yandex.qatools.embed</groupId>
-        <artifactId>postgresql-embedded</artifactId>
-        <version>${flapdoodle.embedded-postgres.version}</version>
       </dependency>
 
       <!-- immutable object -->

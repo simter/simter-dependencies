@@ -1,5 +1,13 @@
 # simter-dependencies changelog
 
+## 3.4.0 - 2022-11-11
+
+- Upgrade to simter-build-3.4.0
+- Upgrade to simter-r2dbc-ext-3.3.0
+- Upgrade to simter-kotlin-3.2.0
+- Remove deprecated embed database configuration (postgres and mysql)
+- Upgrade embedded mongodb version to 4.4.9
+
 ## 3.3.0 - 2022-09-29
 
 - Upgrade to simter-build-3.3.0
